@@ -110,7 +110,7 @@ Gravity cast bulk samples were prepared as per the method detailed in Section \r
 \subsection{Injection Casting}
 Injection cast bulk samples were prepared as per the method detailed in Section \ref{sec:MasterInjectionCasting}. Two difference moulds were used, one for rods and one for plates. The rod mould produced samples of nominal $2.5 mm$ diameter. The plate mould produced two plates of nominal $1.2 mm$ thickness stemming off a central rod spine of $XX mm$ diameter.  
 
-\subsubsection{Sample Cutting}
+\subsection{Sample Cutting}
 The gravity cast wedge moulds could be sheared to sample size with generic pliers. 
 
 The injection cast $2.5mm$ diameter rods were sectioned on a low speed saw (Isomet Low Speed Saw, Buehler, USA) with a diamond blade ($4"~ X~ 0.012"~ X~ 1/2"$, Leco, USA) at a control speed of 5 to produce samples of nominal $1mm$ thickness. 
@@ -118,28 +118,81 @@ The injection cast $2.5mm$ diameter rods were sectioned on a low speed saw (Isom
 The injection cast $1.2mm$ plates were separated from the central rod spine with a wire saw (STX-201 Precision Wire Saw, MTI Corporation, USA). The plates were then sectioned to fit within a 14mm diameter footprint on the low speed saw. 
 
 \section{Semi-Crystalline Target Manufacture} 
-
-\subsection{Induction Furnace}
-
-\subsection{Melt Cycle}
+The production of metallic films by \gls{pvd} requires targets be manufactured from appropriate master alloy to achieve the desired film stoichiometry. The first method used to manufacture these targets was for semi-crystalline targets.
 
 \subsection{Gravity Casting}
+Gravity cast semi-crystalline targets were prepared as per the method detailed in Section \ref{sec:MasterGravityCasting}. For casting these semi-crystalline targets a flat plate mould was used. The casting cavity of this mould was $100~ x~ 50~ mm$ with spacers allowing for thicknesses ranging from $2~ mm$ to several $mm$, with $4~ mm$ plate proving the most practical (Figures \ref{fig:LawsMould} and \ref{fig:FilledMould}). The $4~ mm$ plate variation has a volume of approximately $20~ cc$ with the riser holding an additional $15.5~ cc$. The mould was prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper.
 
-The casting cavity is $100~ x~ 50~ mm$ with spacers allowing for thicknesses ranging from $2~ mm$ to several $mm$, with $4~ mm$ plate proving the most practical (Figures \ref{fig:LawsMould} and \ref{fig:FilledMould}). The $4~ mm$ plate variation has a volume of approximately $20~ cc$ with the riser holding an additional $15.5~ cc$. The mould was prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper.
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	%Image 1
+	\begin{subfigure}[htbp]{0.41\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Laws_Copper_Mould.png}
+		\caption{}
+		\label{fig:LawsMould}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Mould_Cast_Plate.jpg}
+		\caption{}
+		\label{fig:FilledMould}
+	\end{subfigure}
+	\caption[(a) 3D schematic of copper plate mould with dimentions. (b) Cast \MgZnCa~ master alloy plate within mould.]{(a) 3D schematic of copper plate mould with dimentions. (b) Cast \MgZnCa~ master alloy plate within mould. (a) reproduced from \cite{Laws2007}.}%global caption
+	\label{fig:PlateMould}
+\end{figure}
 
-\subsection{Riser Removal} 
+\subsection{Riser Removal} \label{sec:RiserRemoval}
+Once master alloy plate was cast the riser was removed. The plate was mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper was placed under the vice grips to capture the dust for later analysis (Figure \ref{fig:Vice}).
 
 \subsection{Target Extraction}
+The target was extracted from the plate by a notched $32 mm$ diameter diamond holesaw (Suttontools) on a Hercus Sales (W2) drill press at 360 \acrshort{rpm} with a bore rate of approximately $15 mm/hr$. The plate was mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water was supplied by a standard spray bottle (Figures \ref{fig:DrillBit} and \ref{fig:DrillPress}).
 
 \subsection{Target Rounding}
+The target was then shaped to a nominal $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections were removed by hacksaw as outlined in Section \ref{sec:RiserRemoval}, with finer shaping accomplished by linishing operations. Target roundness was checked throughout by comparing with a 2 Euro or washer template, $25.75 mm$ and nominal $25.4 mm$ diameter respectively. Final nominal target diameter was confirmed by vernier caliper measurement (Figure \ref{fig:TargetEuro}). 
 
 \subsection{Target Polishing}
+The target was progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. Targets were polished on both sides and rotated through small angles every couple seconds to ensure a consistent flat surface. The grit progression was 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target was ultrasound cleaned for 1 minute in soap and water. Polishing wheels were not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness was checked by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
+	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked \MgZnCa~ master alloy plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.}
+	\label{fig:CrucibleShaping}
+\end{figure}
+
+%code to put 4 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Vice_Hacksaw.jpg}
+		\caption{}
+		\label{fig:Vice}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.38\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Target_Euro.jpg}
+		\caption{}
+		\label{fig:TargetEuro}
+	\end{subfigure}
+	%Image 3
+	\begin{subfigure}[htbp]{0.275\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Bit.jpg}
+		\caption{}
+		\label{fig:DrillBit}
+	\end{subfigure}
+	%Image 4
+	\begin{subfigure}[htbp]{0.30\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Press.jpg}
+		\caption{}
+		\label{fig:DrillPress}
+	\end{subfigure}
+	\caption{(a) Polymer grip vice clamping plate below riser with 32 \acrshort{tpi} hacksaw. (b) Fully shaped, unpolished target with 2 Euro and washer template. (c) Notched $32~ mm$ diameter diamond holesaw. (d) Drill press, holesaw, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
+	\label{fig:ShapingEquipment}
+\end{figure}
 
 \section{Crystalline Target Manufacture}
-
-\subsection{Induction Furnace}
-
-\subsection{Melt Cycle}
 
 \subsection{Gravity Casting}
 
