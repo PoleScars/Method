@@ -22,22 +22,22 @@
 \contentsline {subsection}{\numberline {1.4.2}Sectioning of Targets}{12}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Target Rounding}{12}{subsection.1.4.3}
 \contentsline {subsection}{\numberline {1.4.4}Target Polishing}{12}{subsection.1.4.4}
-\contentsline {section}{\numberline {1.5}DC Magnetron Sputtering}{13}{section.1.5}
+\contentsline {section}{\numberline {1.5}DC Magnetron Sputtering}{12}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}DC Magnetron Sputtering}{13}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Deposition of Films}{13}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Target Lifespan}{13}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Examined Substrates}{13}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Silicon Wafer Substrate}{13}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Silica Glass Substrate}{13}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Al DSC Lid Substrate}{13}{subsection.1.6.3}
-\contentsline {section}{\numberline {1.7}Storage}{13}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Desiccator}{13}{subsection.1.7.1}
-\contentsline {section}{\numberline {1.8}Characterisation}{13}{section.1.8}
+\contentsline {subsection}{\numberline {1.5.3}Target Lifespan}{14}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Examined Substrates}{14}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Silicon Wafer Substrate}{14}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Silica Glass Substrate}{14}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Al DSC Lid Substrate}{14}{subsection.1.6.3}
+\contentsline {section}{\numberline {1.7}Storage}{14}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Desiccator}{14}{subsection.1.7.1}
+\contentsline {section}{\numberline {1.8}Characterisation}{14}{section.1.8}
 \contentsline {subsection}{\numberline {1.8.1}Physical and Chemical Properties}{14}{subsection.1.8.1}
 \contentsline {subsection}{\numberline {1.8.2}Quality of Deposition}{14}{subsection.1.8.2}
 \contentsline {subsection}{\numberline {1.8.3}Stylus profiler analysis}{14}{subsection.1.8.3}
-\contentsline {subsection}{\numberline {1.8.4}EDS analysis}{14}{subsection.1.8.4}
-\contentsline {subsection}{\numberline {1.8.5}DSC characterization}{14}{subsection.1.8.5}
-\contentsline {subsection}{\numberline {1.8.6}XRD characterization}{14}{subsection.1.8.6}
+\contentsline {subsection}{\numberline {1.8.4}EDS analysis}{15}{subsection.1.8.4}
+\contentsline {subsection}{\numberline {1.8.5}DSC characterization}{15}{subsection.1.8.5}
+\contentsline {subsection}{\numberline {1.8.6}XRD characterization}{15}{subsection.1.8.6}
 \contentsline {chapter}{\numberline {2}BIBLIOGRAPHY}{16}{chapter.2}
 \contentsfinish 
