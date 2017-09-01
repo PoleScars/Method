@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  1 SEP 2017 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  1 SEP 2017 12:25
 entering extended mode
 **Method.tex
 (Method.tex
@@ -1580,48 +1580,55 @@ File: ./images/Ex_ChargeSheet.png Graphic file (type png)
 <use ./images/Ex_ChargeSheet.png>
 Package pdftex.def Info: ./images/Ex_ChargeSheet.png used on input line 50.
 (pdftex.def)             Requested size: 478.86255pt x 259.3815pt.
-
-
-LaTeX Warning: Reference `fig:LawsCasting' on page 3 undefined on input line 57
-.
-
-[3
+ [3
 
 ] [4 <./images/Ex_AutoCutter.jpg> <./images/Ex_Mg_Cut_Ingot.jpg> <./images/Ex_C
 hargeSheet.png>]
-<./images/Ex_Laws_Induction_Schematic.png, id=264, 604.2575pt x 681.54625pt>
+<./images/Ex_Laws_Induction_Schematic.png, id=266, 604.2575pt x 681.54625pt>
 File: ./images/Ex_Laws_Induction_Schematic.png Graphic file (type png)
 
 <use ./images/Ex_Laws_Induction_Schematic.png>
 Package pdftex.def Info: ./images/Ex_Laws_Induction_Schematic.png used on input
  line 62.
 (pdftex.def)             Requested size: 362.77264pt x 409.17009pt.
+ [5 <./images/Ex_Laws_Induction_Schematic.png>]
+<./images/Ex_LAWS_Induction_Casting.png, id=276, 274.91653pt x 209.18352pt>
+File: ./images/Ex_LAWS_Induction_Casting.png Graphic file (type png)
 
+<use ./images/Ex_LAWS_Induction_Casting.png>
+Package pdftex.def Info: ./images/Ex_LAWS_Induction_Casting.png used on input l
+ine 82.
+(pdftex.def)             Requested size: 237.01411pt x 180.34755pt.
 
-LaTeX Warning: Reference `fig:CrucibleCharge' on page 5 undefined on input line
- 69.
+<./images/Ex_Crucible_Charge.jpg, id=277, 1918.16624pt x 1935.23pt>
+File: ./images/Ex_Crucible_Charge.jpg Graphic file (type jpg)
 
-[5 <./images/Ex_Laws_Induction_Schematic.png>]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 79.
+<use ./images/Ex_Crucible_Charge.jpg>
+Package pdftex.def Info: ./images/Ex_Crucible_Charge.jpg used on input line 88.
+
+(pdftex.def)             Requested size: 181.38632pt x 182.99242pt.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 98.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd"
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [6]
+) [6 <./images/Ex_LAWS_Induction_Casting.png> <./images/Ex_Crucible_Charge.jpg>
+]
 
-LaTeX Warning: Reference `fig:LawsMould' on page 7 undefined on input line 99.
+LaTeX Warning: Reference `fig:LawsMould' on page 7 undefined on input line 118.
 
 
-LaTeX Warning: Reference `fig:FilledMould' on page 7 undefined on input line 99
-.
+
+LaTeX Warning: Reference `fig:FilledMould' on page 7 undefined on input line 11
+8.
 
 [7] [8] [9]
-Underfull \hbox (badness 2426) in paragraph at lines 162--163
+Underfull \hbox (badness 2426) in paragraph at lines 181--182
 []\T1/ppl/m/n/12 Isothermal re-lax-ation [][][]DSC[][] was pre-formed by heat-i
 ng sam-ples at $\OT1/ppl/m/n/12 20\OML/zplm/m/it/12 K\OT1/zplm/m/n/12 /\OML/zpl
 m/m/it/12 min$ \T1/ppl/m/n/12 to the
  []
 
-(Method.bbl [10]
+[10] (Method.bbl [11]
 Chapter 2.
 )
 
@@ -1629,27 +1636,27 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-[11
+[12
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (Method.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `Method.out' has not changed.
 (rerunfilecheck)             Checksum: 98F399F0231E2D7B9DE813FE4343C781;3076.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 44356 strings out of 493673
- 940704 string characters out of 3143959
+ 44371 strings out of 493673
+ 941152 string characters out of 3143959
  1114008 words of memory out of 3000000
- 46916 multiletter control sequences out of 15000+200000
+ 46927 multiletter control sequences out of 15000+200000
  37377 words of font info for 88 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  64i,12n,77p,10425b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1680,9 +1687,9 @@ es/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on Method.pdf (11 pages, 1101616 bytes).
+Output written on Method.pdf (12 pages, 2204172 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 385 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 
