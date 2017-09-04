@@ -211,7 +211,7 @@ The target were progressively manually polished as detailed in Section \ref{sec:
 Film \MgZnCa~ samples were produced for comparison to bulk samples. These were produced by \acrshort{dc} magnetron sputtering.
 
 \subsection{DC Magnetron Sputtering}
-The films were deposited by an in house \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of 50 W, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun nominal target diameter is $25.4 mm$ ($1 in$). The working distance between target and substrate holder is $8 cm$. The chamber can achieve a base vacuum pressure of at least $10^{-2} Pa$, and a working Ar pressure of at least $2 Pa$ at constant flow rate of $2 cm^{3}/s$ ???\acrshort{sccm}???. The chamber has direct access and a large deposition area, allowing for batch processing of multiple substrates simultaneously.
+The films were deposited by an in house \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of 50 W, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun is water cooled with a nominal target diameter is $25.4 mm$ ($1 in$). The working distance between target and substrate stage is $8 cm$. The chamber can achieve a base vacuum pressure of at least $10^{-3}~ torr$, and has adjustable working Ar pressure with a constant flow rate. The chamber has direct access and a large deposition area, allowing for batch processing of multiple substrates simultaneously.
 
 %single image
 \begin{figure}[htbp]
@@ -222,9 +222,35 @@ The films were deposited by an in house \acrshort{dc} magnetron sputtering facil
 \end{figure}
 
 \subsection{Deposition of Films}
-\hl{START HERE ON MONDAY!!! There is a draft in the thesis but it was before doing any depositions so it will take some work to fix it. Look at deposition notes to fill in vague statements in the below paragraph}
+A target was carefully affixed in the sputtering gun mount to ensure coincident, level contact with the copper holder. The desired substrate(s) was position directly below the target on the sample stage within the chamber, the shield was positioned over the substrate, and the chamber was sealed. The chamber was then fully evacuated to the base pressure limits of the vacuum pump. 
 
-A target was carefully affixed in the sputtering gun mount to ensure coincident, level contact with the copper holder. The desired substrate was position on the sample stage within the chamber and the chamber sealed. The chamber was evacuated to the desired base pressure, and then backfilled to the desired working Ar pressure. Coincident Ar pressure was maintained by a constant flow of Ar gas. This was necessary because the number of Ar$^{+}$ cations increases with chamber pressure, and accordantly increases the rate of deposition \cite{Ozeki2002}. Before deposition the targets were prepared by a pre-sputter to remove contamination and oxides from their surface. During this stage the substrates were protect by a shield positioned over the sample area preventing deposition.
+For depositions the chamber was backfilled to a working Ar pressure of $1Pa$ with a coincident Ar flow of $3.01$ \acrshort{sccm}. Before deposition the targets were prepared by a pre-sputter to remove contamination and oxides from their surface. For fresh targets this was 5 minutes, for used targets it was 1 minute. During this stage the substrates were protect by a shield positioned over the sample area preventing deposition.
+
+
+The \glspl{tfmg} were deposited onto room temperature substrates, and \glspl{smg} onto elevated temperate substrates. The elevated substrate temperatures were achieved and controlled by a hot plate and K-type thermocouple.
+
+The initial \gls{tfmg} sputtering parameters were based on Liu, et al. \cite{Liu2012} work on \ZrCuNiAl~ film refinement, and the \gls{smg} parameters were based on Yu, et al. \cite{Yu2013} and Aji, et al. \cite{Aji2013} work on \ZrCuAl~ and \ZrCuNiAl~ \gls{smg} films respectively. These parameters were refined by appropriate step sizes as required to suit the examined MgZnCa biocompatible systems. 
+
+%table
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ l l l }
+		\toprule
+		Nominal Sputtering Parameters: & \acrshort{tfmg} & \acrshort{smg} \\
+		\midrule
+		Base Camber Pressure: & $3 \times 10^{-4} - 10^{-2}~ Pa$ & $5 \times 10^{-5} - 10^{-4}~ Pa$ \\
+		Deposition Ar Pressure:	& $0.3 - 3.0~ Pa$ & $5\times 10^{-2} - 0.3~ Pa$\\
+		Deposition Power Range:	& $30 - 50~ W$ & $30 - 50~ W$\\
+		Max Deposition Rate: & $3.3~ nm s^{-1}$ & $1.4~ nm s^{-1}$ \\	 
+		Substrate Deposition Temperature: & \acrshort{rt} & $0.7 - 0.8$ \acrshort{Tg} \\
+		\bottomrule
+	\end{tabular}
+	\caption{Nominal Sputtering Parameters}
+	\label{tab:NomSputterParameters}
+\end{table} \todo{Probably will be much closer to the 50 W end (Jake topped out at 55 W).
+	MgCaZn has more light elements near Ar than ZrCuNiAl.
+	Therefore expect greater deposition efficiencies and to not require as much power.
+	ZrCuNiAl used 50 – 150 W, but we cannot get power that high unless we use 3 inch targets (not practical).} 	
 
 \subsection{Target Lifespan}
 
