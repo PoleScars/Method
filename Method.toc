@@ -1,4 +1,4 @@
-\contentsline {chapter}{TABLE OF CONTENTS}{3}{chapter*.1}
+\contentsline {section}{TABLE OF CONTENTS}{1}{Doc-Start}
 \contentsline {chapter}{\numberline {1}EXPERIMENTAL PROCEDURE}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Master Alloy}{3}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Base Elements}{3}{subsection.1.1.1}
@@ -32,12 +32,14 @@
 \contentsline {subsection}{\numberline {1.6.3}Silicon Wafer Substrate}{15}{subsection.1.6.3}
 \contentsline {section}{\numberline {1.7}Storage}{15}{section.1.7}
 \contentsline {subsection}{\numberline {1.7.1}Desiccator}{15}{subsection.1.7.1}
-\contentsline {section}{\numberline {1.8}Characterisation}{16}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Physical and Chemical Properties}{16}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Quality of Deposition}{16}{subsection.1.8.2}
-\contentsline {subsection}{\numberline {1.8.3}Stylus profiler analysis}{16}{subsection.1.8.3}
-\contentsline {subsection}{\numberline {1.8.4}EDS analysis}{16}{subsection.1.8.4}
-\contentsline {subsection}{\numberline {1.8.5}DSC characterization}{16}{subsection.1.8.5}
-\contentsline {subsection}{\numberline {1.8.6}XRD characterization}{17}{subsection.1.8.6}
+\contentsline {section}{\numberline {1.8}Characterisation}{15}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Stylus profiler analysis}{16}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}SEM analysis}{16}{subsection.1.8.2}
+\contentsline {subsection}{\numberline {1.8.3}EDS analysis}{16}{subsection.1.8.3}
+\contentsline {subsection}{\numberline {1.8.4}DSC characterisation}{16}{subsection.1.8.4}
+\contentsline {subsection}{\numberline {1.8.5}XRD characterisation}{17}{subsection.1.8.5}
+\contentsline {subsection}{\numberline {1.8.6}Nano-indentation characterisation}{17}{subsection.1.8.6}
+\contentsline {subsection}{\numberline {1.8.7}AFM characterisation}{17}{subsection.1.8.7}
+\contentsline {subsection}{\numberline {1.8.8}FIB characterisation}{17}{subsection.1.8.8}
 \contentsline {chapter}{\numberline {2}BIBLIOGRAPHY}{18}{chapter.2}
 \contentsfinish 
