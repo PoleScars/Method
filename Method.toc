@@ -25,14 +25,13 @@
 \contentsline {section}{\numberline {1.5}DC Magnetron Sputtering}{13}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}DC Magnetron Sputtering}{13}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Deposition of Films}{13}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Target Lifespan}{14}{subsection.1.5.3}
 \contentsline {section}{\numberline {1.6}Examined Substrates}{15}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Al DSC Lid Substrate}{15}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Silica Glass Substrate}{15}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Silicon Wafer Substrate}{15}{subsection.1.6.3}
-\contentsline {section}{\numberline {1.7}Storage}{16}{section.1.7}
+\contentsline {section}{\numberline {1.7}Storage}{15}{section.1.7}
 \contentsline {subsection}{\numberline {1.7.1}Desiccator}{16}{subsection.1.7.1}
-\contentsline {section}{\numberline {1.8}Characterisation}{17}{section.1.8}
+\contentsline {section}{\numberline {1.8}Characterisation}{16}{section.1.8}
 \contentsline {subsection}{\numberline {1.8.1}Stylus profiler analysis}{17}{subsection.1.8.1}
 \contentsline {subsection}{\numberline {1.8.2}SEM analysis}{17}{subsection.1.8.2}
 \contentsline {subsection}{\numberline {1.8.3}EDS analysis}{17}{subsection.1.8.3}
