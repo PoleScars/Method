@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  11 SEP 2017 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  11 SEP 2017 15:10
 entering extended mode
 **Method.tex
 (Method.tex
@@ -1615,7 +1615,7 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 100.
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [6 <./images/Ex_LAWS_Induction_Casting.png> <./images/Ex_Crucible_Charge.jpg>
 ] [7]
-<./images/Ex_Laws_Copper_Mould.png, id=292, 249.31699pt x 218.2612pt>
+<./images/Ex_Laws_Copper_Mould.png, id=291, 249.31699pt x 218.2612pt>
 File: ./images/Ex_Laws_Copper_Mould.png Graphic file (type png)
 
 <use ./images/Ex_Laws_Copper_Mould.png>
@@ -1623,7 +1623,7 @@ Package pdftex.def Info: ./images/Ex_Laws_Copper_Mould.png used on input line 1
 32.
 (pdftex.def)             Requested size: 198.31747pt x 173.61673pt.
 
-<./images/Ex_Mould_Cast_Plate.jpg, id=293, 3244.12pt x 2367.84625pt>
+<./images/Ex_Mould_Cast_Plate.jpg, id=292, 3244.12pt x 2367.84625pt>
 File: ./images/Ex_Mould_Cast_Plate.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Mould_Cast_Plate.jpg>
@@ -1631,7 +1631,7 @@ Package pdftex.def Info: ./images/Ex_Mould_Cast_Plate.jpg used on input line 13
 8.
 (pdftex.def)             Requested size: 237.01411pt x 172.99225pt.
  [8 <./images/Ex_Laws_Copper_Mould.png> <./images/Ex_Mould_Cast_Plate.jpg>]
-<./images/Ex_CruciblePlateRiserRoughtarget.png, id=309, 1702.36pt x 1668.2325pt
+<./images/Ex_CruciblePlateRiserRoughtarget.png, id=308, 1702.36pt x 1668.2325pt
 >
 File: ./images/Ex_CruciblePlateRiserRoughtarget.png Graphic file (type png)
  <use ./images/Ex_CruciblePlateRiserRoughtarget.png>
@@ -1639,28 +1639,28 @@ Package pdftex.def Info: ./images/Ex_CruciblePlateRiserRoughtarget.png used on
 input line 161.
 (pdftex.def)             Requested size: 362.77264pt x 355.48111pt.
 
-<./images/Ex_Vice_Hacksaw.jpg, id=310, 3393.67876pt x 2348.775pt>
+<./images/Ex_Vice_Hacksaw.jpg, id=309, 3393.67876pt x 2348.775pt>
 File: ./images/Ex_Vice_Hacksaw.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Vice_Hacksaw.jpg>
 Package pdftex.def Info: ./images/Ex_Vice_Hacksaw.jpg used on input line 171.
 (pdftex.def)             Requested size: 237.01411pt x 164.03682pt.
 
-<./images/Ex_Target_Euro.jpg, id=311, 1521.685pt x 1354.05875pt>
+<./images/Ex_Target_Euro.jpg, id=310, 1521.685pt x 1354.05875pt>
 File: ./images/Ex_Target_Euro.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Target_Euro.jpg>
 Package pdftex.def Info: ./images/Ex_Target_Euro.jpg used on input line 177.
 (pdftex.def)             Requested size: 183.80716pt x 163.55441pt.
 
-<./images/Ex_Drill_Bit.jpg, id=312, 1535.7375pt x 3134.71124pt>
+<./images/Ex_Drill_Bit.jpg, id=311, 1535.7375pt x 3134.71124pt>
 File: ./images/Ex_Drill_Bit.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Drill_Bit.jpg>
 Package pdftex.def Info: ./images/Ex_Drill_Bit.jpg used on input line 183.
 (pdftex.def)             Requested size: 133.01367pt x 271.49318pt.
 
-<./images/Ex_Drill_Press.jpg, id=313, 1958.31625pt x 3639.5975pt>
+<./images/Ex_Drill_Press.jpg, id=312, 1958.31625pt x 3639.5975pt>
 File: ./images/Ex_Drill_Press.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Drill_Press.jpg>
@@ -1669,14 +1669,14 @@ Package pdftex.def Info: ./images/Ex_Drill_Press.jpg used on input line 189.
  [9] [10 <./images/Ex_CruciblePlateRiserRoughtarget.png>] [11 <./images/Ex_Vice
 _Hacksaw.jpg> <./images/Ex_Target_Euro.jpg> <./images/Ex_Drill_Bit.jpg> <./imag
 es/Ex_Drill_Press.jpg>]
-<./images/Ex_TargetMould.jpg, id=333, 1633.10126pt x 1250.6725pt>
+<./images/Ex_TargetMould.jpg, id=332, 1633.10126pt x 1250.6725pt>
 File: ./images/Ex_TargetMould.jpg Graphic file (type jpg)
 
 <use ./images/Ex_TargetMould.jpg>
 Package pdftex.def Info: ./images/Ex_TargetMould.jpg used on input line 210.
 (pdftex.def)             Requested size: 223.95041pt x 171.50522pt.
 
-<./images/Ex_TargetCut02.jpg, id=334, 2686.035pt x 2115.905pt>
+<./images/Ex_TargetCut02.jpg, id=333, 2686.035pt x 2115.905pt>
 File: ./images/Ex_TargetCut02.jpg Graphic file (type jpg)
 
 <use ./images/Ex_TargetCut02.jpg>
@@ -1689,7 +1689,7 @@ lin-ish-ing op-er-a-tions and con-firmed by vernier caliper
  []
 
 [12 <./images/Ex_TargetMould.jpg> <./images/Ex_TargetCut02.jpg>]
-<./images/Ex_Cao_SputterMachine.png, id=344, 426.80922pt x 283.40434pt>
+<./images/Ex_Cao_SputterMachine.png, id=343, 426.80922pt x 283.40434pt>
 File: ./images/Ex_Cao_SputterMachine.png Graphic file (type png)
 
 <use ./images/Ex_Cao_SputterMachine.png>
@@ -1697,7 +1697,7 @@ Package pdftex.def Info: ./images/Ex_Cao_SputterMachine.png used on input line
 239.
 (pdftex.def)             Requested size: 362.77264pt x 240.89482pt.
  [13] [14 <./images/Ex_Cao_SputterMachine.png>] [15]
-<./images/Ex_Desiccator.jpg, id=378, 2163.08125pt x 2731.20375pt>
+<./images/Ex_Desiccator.jpg, id=379, 2163.08125pt x 2731.20375pt>
 File: ./images/Ex_Desiccator.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Desiccator.jpg>
@@ -1734,10 +1734,10 @@ Package rerunfilecheck Info: File `Method.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 44511 strings out of 493673
- 944149 string characters out of 3143959
- 1117683 words of memory out of 3000000
- 47032 multiletter control sequences out of 15000+200000
+ 44542 strings out of 493673
+ 944584 string characters out of 3143959
+ 1118170 words of memory out of 3000000
+ 47062 multiletter control sequences out of 15000+200000
  37377 words of font info for 88 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  64i,12n,77p,10425b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1760,6 +1760,9 @@ pdfTeX warning (dest): name{glo:sem} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{glo:xrd} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:ssp} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{glo:dsc} has been referenced but does not exist, re
@@ -1792,9 +1795,9 @@ es/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on Method.pdf (20 pages, 12205501 bytes).
+Output written on Method.pdf (20 pages, 12205664 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
