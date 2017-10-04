@@ -7,36 +7,9 @@
 The production of all bulk and film samples required the casting of master alloys of the desired stoichiometry of \MgZnCa. These master alloys were produced by induction melting of high-purity ingots of each constituent.
 
 \subsection{Base Elements}
-The master alloy of \MgZnCa~ was produced using high-purity elements of Mg (99.85 wt.\%), Zn (99.995 wt.\%), and Ca (99.8 wt.\%). Each element ingot was linished or otherwise mechanically abraded to removal surface contamination and oxides. The ingots were cut to size on either a Labotom-3 or a Discotom-6 (Struers, Denmark) auto-cutter at a feed rate of no more than $0.2 mm/s$ at $2850 - 3420$ \acrshort{rpm} (Figures \ref{fig:AutoCutter} and \ref{fig:MgIngot}).
+The master alloy of \MgZnCa~ was produced using high-purity elements of Mg (99.85 wt.\%), Zn (99.995 wt.\%), and Ca (99.8 wt.\%). Each element ingot was linished or otherwise mechanically abraded to removal surface contamination and oxides. The ingots were cut to size on either a Labotom-3 or a Discotom-6 (Struers, Denmark) auto-cutter at a feed rate of no more than $0.2 mm/s$ at $2850 - 3420$ \acrshort{rpm}.
 
-%code to put 2 images side by side in a figure
-\begin{figure}[htbp]
-	\centering
-	%Image 1
-	\begin{subfigure}[htbp]{0.49\textwidth}
-		\includegraphics[width=\textwidth]{Ex_AutoCutter.jpg}
-		\caption{}
-		\label{fig:AutoCutter}
-	\end{subfigure}
-	%Image 2
-	\begin{subfigure}[htbp]{0.30\textwidth}
-		\includegraphics[width=\textwidth]{Ex_Mg_Cut_Ingot.jpg}
-		\caption{}
-		\label{fig:MgIngot}
-	\end{subfigure}
-	\caption{(a) Struers Discotom-6 auto-cutter. (b) Cut and fully deoxided Mg ingot ready for casting.}%global caption
-	\label{fig:Cutter_MgIngot}
-\end{figure}
-
-The total weight of each constituent element required for a master alloy charge was automatically calculated by a developed MS Excel workbook, Figure \ref{fig:ChargeSheet}. This tool used numerical methods to auto-compute the required weights of each element needed for a charge from the available on-hand innovatory of prepared ingots. It checked the expected master alloy composition, and provided a space for notes on the entire process (i.e. heating cycles, observations, possible future refinements, etc.).
-
-%single image
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.99\textwidth]{Ex_ChargeSheet.png}
-	\caption{Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future refinements.}
-	\label{fig:ChargeSheet}
-\end{figure}
+The total weight of each constituent element required for a master alloy charge was automatically calculated by a developed MS Excel workbook, see Appendix \ref{sec:AppChargeCalcs}. This tool used numerical methods to auto-compute the required weights of each element needed for a charge from the available on-hand innovatory of prepared ingots. It checked the expected master alloy composition, and provided a space for notes on the entire process (i.e. heating cycles, observations, possible future refinements, etc.).
 
 \subsection{Induction Melting}
 
@@ -127,34 +100,23 @@ Gravity cast semi-crystalline targets were prepared as per the method detailed i
 	\label{fig:PlateMould}
 \end{figure}
 
-\subsection{Riser Removal} \label{sec:RiserRemoval}
-After the master alloy plate was cast the riser was removed. The plate was mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper was placed under the vice grips to capture the metallic saw dust for later analysis (Figure \ref{fig:Vice}).
+\subsection{Target Manufacture} \label{sec:TargetManufacture}
+After the master alloy plate was cast the riser was removed. The plate was mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper was placed under the vice grips to capture the metallic saw dust for later analysis.
 
-\subsection{Target Extraction}
-The target was extracted from the plate by a notched $32 mm$ diameter diamond holesaw (Suttontools, Australia) on a drill press (Hercus Sales, Australia) at 360 \acrshort{rpm} with a bore rate of approximately $15 mm/hr$. The plate was mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water was supplied by a standard spray bottle (Figures \ref{fig:DrillBit} and \ref{fig:DrillPress}).
+The target was extracted from the plate by a notched $32 mm$ diameter diamond holesaw (Suttontools, Australia) on a drill press (Hercus Sales, Australia) at 360 \acrshort{rpm} with a bore rate of approximately $15 mm/hr$. The plate was mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water was supplied by a standard spray bottle (Figures \ref{fig:DrillPress}).
 
-\subsection{Target Rounding}
-The target was then shaped to a nominal $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections were removed by hacksaw as outlined in Section \ref{sec:RiserRemoval}, with finer shaping accomplished by linishing operations. Target roundness was checked throughout by comparing with a 2 Euro coin or washer template, $25.75 mm$ and nominal $25.4 mm$ diameter respectively. Final nominal target diameter was confirmed by vernier caliper measurement (Figure \ref{fig:TargetEuro}). 
+The target was then shaped to a nominal $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections were removed by hacksaw, with finer shaping accomplished by linishing operations. Target roundness was checked throughout by comparing with a 2 Euro coin or washer template, $25.75 mm$ and nominal $25.4 mm$ diameter respectively. Final nominal target diameter was confirmed by vernier caliper measurement (Figure \ref{fig:TargetEuro}). 
 
-\subsection{Target Polishing} \label{sec:SemiCryPolishing}
 The target was progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. The target was polished on both sides and rotated through small angles every couple seconds to ensure a consistent flat surface. The grit progression was 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target was ultrasound cleaned for 1 minute in soap and water. Polishing wheels were not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness was checked by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
 
-%single image
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
-	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked \MgZnCa~ master alloy plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.}
-	\label{fig:CrucibleShaping}
-\end{figure}
-
-%code to put 4 images side by side in a figure
+%code to put 2 images side by side in a figure
 \begin{figure}[htbp]
 	\centering
 	%Image 1
-	\begin{subfigure}[htbp]{0.49\textwidth}
-		\includegraphics[width=\textwidth]{Ex_Vice_Hacksaw.jpg}
+	\begin{subfigure}[htbp]{0.30\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Press.jpg}
 		\caption{}
-		\label{fig:Vice}
+		\label{fig:DrillPress}
 	\end{subfigure}
 	%Image 2
 	\begin{subfigure}[htbp]{0.38\textwidth}
@@ -162,19 +124,7 @@ The target was progressively manually polished with light pressure on glass plat
 		\caption{}
 		\label{fig:TargetEuro}
 	\end{subfigure}
-	%Image 3
-	\begin{subfigure}[htbp]{0.275\textwidth}
-		\includegraphics[width=\textwidth]{Ex_Drill_Bit.jpg}
-		\caption{}
-		\label{fig:DrillBit}
-	\end{subfigure}
-	%Image 4
-	\begin{subfigure}[htbp]{0.30\textwidth}
-		\includegraphics[width=\textwidth]{Ex_Drill_Press.jpg}
-		\caption{}
-		\label{fig:DrillPress}
-	\end{subfigure}
-	\caption{(a) Polymer grip vice clamping plate below riser with 32 \acrshort{tpi} hacksaw. (b) Fully shaped, unpolished target with 2 Euro coin and washer template. (c) Notched $32 mm$ diameter diamond holesaw. (d) Drill press, holesaw, horizontal vice with polymer grips, plywood damper, and drip tray for target extraction.}%global caption
+	\caption{(a) Drill press, holesaw, horizontal vice with polymer grips, plywood damper, and drip tray for target extraction. (b) Fully shaped, unpolished target with 2 Euro coin and washer template.}%global caption
 	\label{fig:ShapingEquipment}
 \end{figure}
 
@@ -184,7 +134,7 @@ Fully crystalline targets were later manufactured as they could be produced more
 \subsection{Gravity Casting}
 Gravity cast semi-crystalline targets were prepared as per the method detailed in Section \ref{sec:MasterGravityCasting}. The copper cylinder mould cavity diameter was $25.6 mm$, with a depth of $60 mm$, and no riser allowing for a casting volume of approximately $30 cc$. The mould was prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper.
 
-\subsection{Sectioning of Targets}
+\subsection{Target Manufacture}
 Once cast the top and bottom quarter of the casting was removed on an auto-cutter (Accutom-50, Struers, Denmark) fitted with a diamond blade ($4"~ X~ 0.012"~ X~ 1/2"$, Leco, USA) at a feed rate of no more than $0.02 mm/s$ at $2000$ \acrshort{rpm} with medium force. This removed any inconsistencies / non-homogeneous material resulting from the quick initial cooling at the base of the mould, and the final feeding of the last liquid melt. The remaining, consistent casting was then sectioned into nominally $3.85 mm$ thick targets.
 
 %code to put 2 images side by side in a figure
@@ -205,14 +155,12 @@ Once cast the top and bottom quarter of the casting was removed on an auto-cutte
 	\label{fig:Xtal_Target}
 \end{figure}
 
-\subsection{Target Rounding}
 Sectioned targets were slightly oversized and quickly shaped to a nominal $1 in$ ($25.2 - 25.4 mm$) diameter disk by linishing operations and confirmed by vernier caliper measurement.
 
-\subsection{Target Polishing}
-The target were progressively manually polished as detailed in Section \ref{sec:SemiCryPolishing}.
+The target were progressively manually polished as detailed in Section \ref{sec:TargetManufacture}.
 
 \section{DC Magnetron Sputtering}
-Film samples of the \MgZnCa~ alloy were produced by \gls{dc} magnetron sputtering for comparison with the \gls{bmg} samples. The films were deposited by an in-house \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of $50 W$, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun is water cooled with a nominal target diameter of $25.4 mm$ ($1 in$). The working distance between the target and substrate stage is $8 cm$. The chamber can achieve a base vacuum pressure of at least $10^{-3}$ Torr, and has adjustable working Ar pressure supplied at a constant flow rate. The chamber has direct access and a large deposition area, allowing for batch simultaneous processing of multiple substrates.
+Film samples of the \MgZnCa~ alloy were produced by \gls{dc} magnetron sputtering for comparison with the \gls{bmg} samples. The films were deposited by an in-house \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of $50 W$, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun is water cooled with a nominal target diameter of $25.4 mm$ ($1 in$). The working distance between the target and substrate stage is $8 cm$. The chamber can achieve a base vacuum pressure of at least $0.1333 Pa$, and has adjustable working Ar pressure supplied at a constant flow rate. The chamber has direct access and a large deposition area, allowing for batch simultaneous processing of multiple substrates.
 
 %single image
 \begin{figure}[htbp]
@@ -267,14 +215,6 @@ The \MgZnCa~ alloy is known to be sensitive to atmospheric conditions, and caref
 
 \subsection{Desiccator}
 All samples and targets were stored in individual polymer sample bags before storing in a vacuum glass desiccator (E124-150, ProSciTech, Australia). This desiccator had silica gel beads added below the porcelain base plate to ensure minimal moister within the chamber. The desiccator was sealed by applying a small amount of vacuum grease (Thermo Fisher Scientific, USA) around the flange. To mitigate atmospheric effects the desiccator atmosphere was vacuumed and backfilled with ultra-high purity Ar (99.999\%). A purge cycle of $10 - 15$ fills between a gauge pressure of $0.0 kPa$ and $-67.3 kPa$ ($-20$ In-Hg) was used to minimise the residual atmosphere present in the desiccator. The desiccator was protected from accidental breakage by protective netting (Australian Netting and Extrusions, Australia).
-
-%single image
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.4\textwidth]{Ex_Desiccator.jpg}
-	\caption{Vacuum glass desiccator with protective netting.}
-	\label{fig:Desiccator}
-\end{figure}
 
 \section{Characterisation of Bulk and Film Samples}
 
