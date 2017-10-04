@@ -1,0 +1,345 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{./Z_images/Method_Images/}}
+
+\chapter{EXPERIMENTAL PROCEDURE}
+
+\section{Master Alloy}
+The production of all bulk and film samples required master alloy of the desired stoichiometry of \MgZnCa. These master alloys were produced by induction melting of pure constituent element ingots.
+
+\subsection{Base Elements}
+The master alloy of \MgZnCa~ was produced using high-purity elements of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%). Each element ingot was linished or otherwise mechanically abraded to removal surface contamination and oxides. The ingots were cut to size on either a Labotom-3 or a Discotom-6 (Struers, Denmark) auto-cutter at a feed rate of no more than $0.2 mm/s$ at $2850 - 3420$ \acrshort{rpm} (Figures \ref{fig:AutoCutter} and \ref{fig:MgIngot}).
+
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_AutoCutter.jpg}
+		\caption{}
+		\label{fig:AutoCutter}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.30\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Mg_Cut_Ingot.jpg}
+		\caption{}
+		\label{fig:MgIngot}
+	\end{subfigure}
+	\caption{(a) Struers Discotom-6 auto-cutter. (b) Cut and fully deoxided Mg ingot ready for casting.}%global caption
+	\label{fig:Cutter_MgIngot}
+\end{figure}
+
+The total weight of each constituent element required for a master alloy charge was automatically calculated by a developed MS Excel workbook, Figure \ref{fig:ChargeSheet}. This tool used numerical methods to auto-compute the required weights of each element needed for a charge from the available on-hand innovatory of prepared ingots. It checked the expected master alloy composition, and provided a space for notes on the entire process (i.e. heating cycles, observations, possible future refinements, etc.).
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.99\textwidth]{Ex_ChargeSheet.png}
+	\caption{Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future refinements.}
+	\label{fig:ChargeSheet}
+\end{figure}
+
+\subsection{Induction Furnace}
+
+The \MgZnCa~ master alloy was prepared from the base element ingots by an in-house ad hoc induction furnace and casting facility (Figures \ref{fig:CastingSchematic} and \ref{fig:LawsCasting}). The facility has a maximum temperature of 1300\degree C, heating rate of 500\degree C/min, and vacuum and dynamic gas melting capability \cite{Laws2007}. The dyanmic gas flow rate can be varied from $0-200~ cm^{3}/min$, and temperature regulated by a K-type thermocouple \cite{Laws2007}. The casting capabilities allow for conventional gravity casting, inverted injection casting, vacuum/suction casting, or combination injection/vacuum casting \cite{Laws2007}.
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Ex_Laws_Induction_Schematic.png}
+	\caption[Schematic of induction casting melting chamber.]{Schematic of induction casting melting chamber. Adapted from \cite{Laws2007}.}
+	\label{fig:CastingSchematic}
+\end{figure}
+
+\subsection{Crucibles}
+
+Boron nitride coated graphite crucibles were used for the melting because the coating is inert with molten Mg. Two sizes are available for the facility, $32 mm$ and $34 mm$ diameter, by $85 mm$ in length, allowing for maximum usable charge volumes of $40$ and $60 cc$ respectively. The Mg and Zn ingots were placed in the bottom of the crucible with maximum wall contact, with the Ca being added on the top, Figure \ref{fig:CrucibleCharge}.
+
+\subsection{Melt Cycle}
+
+Each prepared crucible was sealed in the induction furnace chamber, evacuated and purged with Ar (99.997 vol.\% purity) five times before starting a continues circulating Ar flow through the chamber to prevent oxidation of the melt (Figure \ref{fig:CastingSchematic}). Alloy homogeneity was ensured by a multi-step heating and cooling cycle to promote thorough mixing of the constituent elements. This heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state helped ensure a homogeneous alloy melt.
+
+The crucible charge was induction melted at 700\degree C for a couple minutes and stirred with a tungsten rod. The melt was then partially solidification at 385\degree C, remelted and stirred at 650\degree C, partially re-solidification at 385\degree C, and remelted and stirred again at 650\degree C. The melt was then cooled to its required casting temperature, held at temperature for approximately 30 seconds, and stirred a final time.
+
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_LAWS_Induction_Casting.png}
+		\caption{}
+		\label{fig:LawsCasting}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.375\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Crucible_Charge.jpg}
+		\caption{}
+		\label{fig:CrucibleCharge}
+	\end{subfigure}
+	\caption[(a) In-house ad hoc inducting casting chamber. (b) Boron nitrate coated graphite crucible with Mg and Zn ingot charge.]{(a) In-house ad hoc inducting casting chamber. (b) Boron nitrate coated graphite crucible with Mg and Zn ingot charge. (a) reproduced from \cite{Laws2007}.}%global caption
+	\label{fig:Induction}
+\end{figure}
+
+\subsection{Gravity Casting} \label{sec:MasterGravityCasting}
+
+For naturally cooled gravity castings the casting temperature was $500- 510$\degree C to ensure high molten metal flow and mould filling. The melt crucible was removed from the melt chamber by the incorporated raising bar, and manually poured into a prepared copper mould. The moulds were prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper. 
+
+\subsection{Injection Casting} \label{sec:MasterInjectionCasting}
+
+For injection castings the casting temperature was $450$\degree C to ensure a stable molten metal flow front into the mould. This inverted injection required a silica glass tube of inner diameter $4mm$ be inserted into the melting chamber to act as a flow path between the crucible and the mould. An Ar pressure surge was then applied to the chamber to drive the molten metal up the tube and into the mould. The moulds were prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper. 
+
+\section{Bulk Sample Manufacture}
+Bulk \MgZnCa~ samples were produced for comparison to film samples. These were produced by gravity casting and injection casting. 
+
+\subsection{Gravity Casting}
+Gravity cast bulk samples were prepared as per the method detailed in Section \ref{sec:MasterGravityCasting}. A wedge mould was used to produce \gls{bmg} samples for testing. This wedge mould was $100mm$ long, $40mm$ wide, with a maximum thickness of $10mm$, giving a volume of $20cc$. Only samples from the tip of the wedge, where the alloy was glassy, were used for experimentation. 
+
+\subsection{Injection Casting}
+Injection cast bulk samples were prepared as per the method detailed in Section \ref{sec:MasterInjectionCasting}. Two different moulds were used, one for rods and one for plates. The rod mould produced samples of nominal $2.5 mm$ diameter. The plate mould produced two plates of nominal $1.2 mm$ thickness stemming off a central rod spine of $4 mm$ diameter.  
+
+\subsection{Sample Cutting}
+The gravity cast wedge moulds could be sheared to sample size with generic pliers. 
+
+The injection cast $2.5mm$ diameter rods were sectioned on a low speed saw (Isomet Low Speed Saw, Buehler, USA) with a diamond blade ($4"~ X~ 0.012"~ X~ 1/2"$, Leco, USA) at a control speed of 5 to produce samples of nominal $1mm$ thickness. 
+
+The injection cast $1.2mm$ plates were separated from the central rod spine with a wire saw (STX-201 Precision Wire Saw, MTI Corporation, USA). The plates were then sectioned to fit within a 14mm diameter footprint on the low speed saw (same conditions as above). 
+
+\section{Semi-Crystalline Target Manufacture} 
+The production of metallic films by \gls{pvd} requires targets be manufactured from appropriate master alloy to achieve the desired film stoichiometry. The first method used to manufacture these targets was for semi-crystalline targets.
+
+\subsection{Gravity Casting}
+Gravity cast semi-crystalline targets were prepared as per the method detailed in Section \ref{sec:MasterGravityCasting}. For casting these semi-crystalline targets a flat plate mould was used. The casting cavity of this mould was $100 x 50 mm$ with spacers allowing for thicknesses ranging from $2 mm$ to several $mm$, with $4 mm$ plate proving the most practical (Figure \ref{fig:PlateMould}). The $4 mm$ plate variation has a volume of approximately $20 cc$ with the riser holding an additional $15.5 cc$. The mould was prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper.
+
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	%Image 1
+	\begin{subfigure}[htbp]{0.41\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Laws_Copper_Mould.png}
+		\caption{}
+		\label{fig:LawsMould}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Mould_Cast_Plate.jpg}
+		\caption{}
+		\label{fig:FilledMould}
+	\end{subfigure}
+	\caption[(a) 3D schematic of copper plate mould with dimentions in $mm$. (b) Cast \MgZnCa~ master alloy plate within mould.]{(a) 3D schematic of copper plate mould with dimentions in $mm$. (b) Cast \MgZnCa~ master alloy plate within mould. (a) reproduced from \cite{Laws2007}.}%global caption
+	\label{fig:PlateMould}
+\end{figure}
+
+\subsection{Riser Removal} \label{sec:RiserRemoval}
+Once master alloy plate was cast the riser was removed. The plate was mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper was placed under the vice grips to capture the metallic saw dust for later analysis (Figure \ref{fig:Vice}).
+
+\subsection{Target Extraction}
+The target was extracted from the plate by a notched $32 mm$ diameter diamond holesaw (Suttontools, Australia) on a drill press (Hercus Sales, Australia) at 360 \acrshort{rpm} with a bore rate of approximately $15 mm/hr$. The plate was mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water was supplied by a standard spray bottle (Figures \ref{fig:DrillBit} and \ref{fig:DrillPress}).
+
+\subsection{Target Rounding}
+The target was then shaped to a nominal $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections were removed by hacksaw as outlined in Section \ref{sec:RiserRemoval}, with finer shaping accomplished by linishing operations. Target roundness was checked throughout by comparing with a 2 Euro coin or washer template, $25.75 mm$ and nominal $25.4 mm$ diameter respectively. Final nominal target diameter was confirmed by vernier caliper measurement (Figure \ref{fig:TargetEuro}). 
+
+\subsection{Target Polishing} \label{sec:SemiCryPolishing}
+The target was progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. The target was polished on both sides and rotated through small angles every couple seconds to ensure a consistent flat surface. The grit progression was 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target was ultrasound cleaned for 1 minute in soap and water. Polishing wheels were not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness was checked by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
+	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked \MgZnCa~ master alloy plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.}
+	\label{fig:CrucibleShaping}
+\end{figure}
+
+%code to put 4 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Vice_Hacksaw.jpg}
+		\caption{}
+		\label{fig:Vice}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.38\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Target_Euro.jpg}
+		\caption{}
+		\label{fig:TargetEuro}
+	\end{subfigure}
+	%Image 3
+	\begin{subfigure}[htbp]{0.275\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Bit.jpg}
+		\caption{}
+		\label{fig:DrillBit}
+	\end{subfigure}
+	%Image 4
+	\begin{subfigure}[htbp]{0.30\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Press.jpg}
+		\caption{}
+		\label{fig:DrillPress}
+	\end{subfigure}
+	\caption{(a) Polymer grip vice clamping plate below riser with 32 \acrshort{tpi} hacksaw. (b) Fully shaped, unpolished target with 2 Euro coin and washer template. (c) Notched $32 mm$ diameter diamond holesaw. (d) Drill press, holesaw, horizontial vice with polymer grips, plywood damper, and drip tray for target extraction.}%global caption
+	\label{fig:ShapingEquipment}
+\end{figure}
+
+\section{Crystalline Target Manufacture}
+Fully crystalline targets were later manufactured as they could be produced more quickly and found to provided similar deposition results to semi-crystalline targets.
+
+\subsection{Gravity Casting}
+Gravity cast semi-crystalline targets were prepared as per the method detailed in Section \ref{sec:MasterGravityCasting}. The copper cylinder mould cavity diameter was $25.6 mm$, with a depth of $60 mm$, and no riser allowing for a casting volume of approximately $30 cc$. The mould was prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with the paper.
+
+\subsection{Sectioning of Targets}
+Once cast the top and bottom quarter of the casting was removed on an auto-cutter (Accutom-50, Struers, Denmark) fitted with a diamond blade ($4"~ X~ 0.012"~ X~ 1/2"$, Leco, USA) at a feed rate of no more than $0.02 mm/s$ at $2000$ \acrshort{rpm} with medium force. This removed any inconsistencies / non-homogeneous material resulting from the quick initial cooling at the base of the mould, and the final feeding of the last liquid melt. The remaining, consistent casting was then sectioned into nominally $3.85 mm$ thick targets.
+
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	%Image 1
+	\begin{subfigure}[htbp]{0.463\textwidth}
+		\includegraphics[width=\textwidth]{Ex_TargetMould.jpg}
+		\caption{}
+		\label{fig:Xtal_Casting_Target}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{Ex_TargetCut02.jpg}
+		\caption{}
+		\label{fig:Xtal_Cutting_Target}
+	\end{subfigure}
+	\caption{(a) Crystalline target cast in a copper cylinder mould. (b) Cutting crystalline target on struers Accutom-50.}%global caption
+	\label{fig:Xtal_Target}
+\end{figure}
+
+\subsection{Target Rounding}
+Sectioned targets were slightly oversized and quickly shaped to a nominal $1 in$ ($25.2 - 25.4 mm$) diameter disk by linishing operations and confirmed by vernier caliper measurement.
+
+\subsection{Target Polishing}
+The target were progressively manually polished as detailed in Section \ref{sec:SemiCryPolishing}.
+
+\section{DC Magnetron Sputtering}
+Film \MgZnCa~ samples were produced for comparison to bulk samples. These were produced by \acrshort{dc} magnetron sputtering.
+
+\subsection{DC Magnetron Sputtering}
+The films were deposited by an in-house ad hoc \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of $50 W$, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun is water cooled with a nominal target diameter of $25.4 mm$ ($1 in$). The working distance between target and substrate stage is $8 cm$. The chamber can achieve a base vacuum pressure of at least $10^{-3}$ Torr, and has adjustable working Ar pressure supplied at a constant flow rate. The chamber has direct access and a large deposition area, allowing for batch processing of multiple substrates simultaneously.
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Ex_Cao_SputterMachine.png}
+	\caption[In-house ad hoc \acrshort{dc} magnetron sputtering facility.]{In house \acrshort{dc} magnetron sputtering facility. Reproduced from \cite{Cao2013}.}
+	\label{fig:CaoSputtering}
+\end{figure}
+
+\subsection{Deposition of Films} \label{sec:DepositionOfFilms}
+A target was carefully affixed in the sputtering gun mount to ensure coincident, level contact with the copper holder. The desired substrates were position directly below the target on the sample stage within the chamber, the shield was positioned over the substrates, and the chamber was sealed. The chamber was then fully evacuated to the base pressure limits of the vacuum pump. 
+
+For depositions the chamber was backfilled to a working Ar pressure of $1Pa$ with a coincident Ar flow of $3.01$ \acrshort{sccm}. The gun was fired at a power of $15W$, with typical voltage of $285-325V$. The substrate stage was nominally at room temperature, uncooled, and its temperature rise monitored with a k-type thermocouple. 
+
+To begin a deposition a target was prepared by a pre-sputter to remove contamination and oxides from its surface. For fresh targets this pre-sputter was for 5 minutes, and for used targets it was 1 minute. During this stage the substrates were protect by a shield positioned over the sample area to prevent deposition. The shield was then removed to begin a deposition for 35 minutes unless otherwise noted, see Table \ref{tab:NomSputterParameters}. 
+
+%table
+\begin{table}[h]
+	\centering
+	\caption{Nominal sputtering parameters.}
+	\begin{tabular}{ l l }
+		\toprule
+		\multicolumn{2}{c}{Deposition Conditions} \\
+		\midrule
+		Power                       & $15W$       \\
+		Voltage                     & $285-325V$  \\
+		Base pressure               & $1 Pa$        \\
+		Ar flow rate                & 3.01 \acrshort{sccm} \\
+		Substrate temperature       & 25\degree C \\
+		Pre-sputter (fresh target)  & 5 minutes   \\
+		Pre-sputter (used target)   & 1 minute    \\
+		Deposition time             & 35 minutes  \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:NomSputterParameters}
+\end{table} 	
+
+\section{Examined Substrates} 
+The \MgZnCa~ films were deposited onto three different substrates for examination; Al \acrshort{dsc} lid substrates, silica glass slide substrates, and silicon wafer substrates.
+
+\subsection{Al DSC Lid Substrate}
+Films were deposited directly onto Al \gls{dsc} lids (Netzsch, Germany)to use as the main substrate for these works. These substrates were used as they allowed for the collection of reliable \gls{dsc} data, and could be used to obtain coincident results with other techniques. 
+
+\subsection{Silica Glass Substrate}
+Silicon glass substrates (Corning Inc., USA) were primarily used for film thickness measurements. They could also be used to verify that results were consistent across various substrates by comparing with the \gls{dsc} lid results. These substrates were cleaned in an ethanol ultrasound bath for at least 1 minute before being used. 
+
+\subsection{Silicon Wafer Substrate}
+Depositions onto un-doped, \gls{ssp} $500 \pm 10 \mu m$,  (100) silicon wafer (UniversityWafer, USA) was occasionally used for specific \gls{xrd} and other experiments. These substrate were used for these specialised experiments as some film properties can to be more easily examined with the minimal substrate influence available from Si compared to other substrates. These substrates were cleaned in an ethanol ultrasound bath for at least 1 minute before being used. 
+
+\section{Storage}
+The \MgZnCa~ alloy is known to be sensitive to atmospheric conditions, and careful storage is required to mitigate these effects. 
+
+\subsection{Desiccator}
+All samples and targets were stored in individual polymer sample bags before storing in a vacuum glass desiccator (E124-150, ProSciTech, Australia). This desiccator had silica gel beads added below the porcelain base plate to ensure minimal moister within the chamber. The desiccator was sealed by applying a small amount of vacuum grease (Thermo Fisher Scientific, USA) around the flange. To mitigate atmospheric effects the desiccator atmosphere was vacuumed and backfilled with ultra-high purity Ar (99.999\%). A purge cycle of $10 - 15$ fills between a gauge pressure of $0.0 kPa$ and $-67.3 kPa$ ($-20$ In-Hg) was used to minimise the residual atmosphere present in the desiccator. The desiccator was protected from accidental breakage by protective netting (Australian Netting and Extrusions, Australia).
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Ex_Desiccator.jpg}
+	\caption{Vacuum glass desiccator with protective netting.}
+	\label{fig:Desiccator}
+\end{figure}
+
+\section{Characterisation}
+Both bulk and film \MgZnCa~ samples were characterised and analysis with numerous techniques. 
+
+\subsection{Stylus profiler characterisation}
+Nominal film thickness was measure by a stylus profiler (Dektak 2A, Bruker, Germany). A glass slide was placed under the Al \gls{dsc} lid substrates within the sputtering chamber, allowing the substrates to act as a mask. Profile measurements were taken by measuring the height difference between the bare glass and the film coated glass. This film thickness was used to estimate the sputter deposition rate.  
+
+\subsection{SEM characterisation}
+Alloy surface features were examined with \gls{sem} (S3400-N, Hitachi, Japan; Nova NanoSEM 230/450, FEI, The Netherlands). Imaging was done with an accelerating voltage of $5keV$, a probe current of $50 \mu A$, spot size 3, and working distance of $5mm$.
+
+\subsection{EDS characterisation}
+Alloy composition and homogeneity were confirmed by \acrshort{sem}-\acrshort{eds} (S3400-N, Hitachi, Japan; Nova NanoSEM 230/450, FEI, The Netherlands). Hyper-maps were collected with an accelerating voltage of $15-20keV$, a probe current of $50 \mu A$, spot size 4.2, counts of $5000cps$ or better, dead time less than 20\%, working distance $5mm$ (Nova NanoSEM) or $10mm$ (S3400-N), and collection time of $5-15$ minutes.
+
+\subsection{DSC characterisation}
+Isochronic \acrshort{dsc} (204 F1 Phoenix, Netzsch, Germany) was carried out in Al crucibles under a protective Ar atmosphere (99.997 vol.\% purity). Scans were performed at \glspl{ht} of $5$ to $100 K/min$. 
+
+Isothermal relaxation \acrshort{dsc} was preformed by heating samples at $20 K/min$ to the desired annealing temperature, holding for the desired time, and Ar quenching to room temperature.
+
+For annealed \acrshort{xrd} the samples were heat treated in the \acrshort{dsc} by heating to the desired temperature at $20 K/min$ followed by Ar quenching to room temperature.
+
+Isothermal crystallisation \acrshort{dsc} was preformed by heating samples at a variable rate to ensure they reach the desired annealing temperature with the minimal practicable temperature and sensor fluctuations. The samples were then held for the desired time, and Ar quenched to room temperature. This level of control was required for isothermal crystallisation \acrshort{dsc} due to the low data resolution of these experiments. 
+
+%table
+\begin{table}[h]
+	\centering
+	\caption{Example isothermal crystallisation \acrshort{dsc} variable heating rate profile to 100\degree C. An isothermal experiment at a higher temperature would add the difference to each step, except for the starting temperature (i.e. for 105\degree C, add 5\degree C to all steps except for 25\degree C).}
+	\begin{tabular}{cccc}
+		\toprule
+		Temperature & Heating Rate & Step Time & Total Time \\
+		\degree C   & K/min & sec  & sec \\
+		\midrule
+		25   & -     & -    & 0          \\
+		45   & 100   & 12.0 & 12.0       \\
+		60   & 75    & 12.0 & 24.0       \\
+		70   & 50    & 12.0 & 36.0       \\
+		80   & 33    & 18.2 & 54.2       \\
+		90   & 20    & 30.0 & 84.2       \\
+		94   & 11    & 21.8 & 106.0      \\
+		97   & 7     & 25.7 & 131.7      \\
+		98.5 & 5     & 18.0 & 149.7      \\
+		100  & 2.5   & 36.0 & 185.7      \\
+		\bottomrule  
+	\end{tabular}
+	\label{tab:RampingDSC}
+\end{table} 
+
+\subsection{XRD characterisation}
+Annealing \acrshort{xrd} (Empyrean, PANalytical, The Netherlands, Cu $K_{\alpha}$ X-ray source, $\lambda = 1.541 \angstrom$) was performed on heat treated bulk rods, and films at room temperature. 
+The operating parameters were: generator voltage $45 kV$, tube current $40 mA$, scan step size 0.0262606, and time per step of 397.29. 
+
+Dynamic \acrshort{xrd} (D8, Bruker, Germany, Cu $K_{\alpha}$ X-ray source, $\lambda = 1.541 \angstrom$) was performed on as manufactured bulk injection plates, and films by raising temperature at a rate of $20 K/min$ and performing scans \textit{in situ}. The first scan was performed at $35$\degree C, then $75$\degree C, after which temperature was raised in $5$\degree C increments until reaching a finish temperature at $185$\degree C. The $2 \theta$ scans from $31 - 60$\degree~ were completed within $1092 sec$ ($18min,~ 12sec$) to minimise the effects of recrystallisation at temperature during the experiment.
+The operating parameters were: generator voltage $45 kV$, tube current $100 mA$, scan step size 0.02, and time per step of 134.4. 
+
+\subsection{Nano-indentation characterisation}
+Nano-indentation (TriboIndenter TI900, Hysitron, USA) was preformed on both the bulk, and film \MgZnCa~ to comparable the hardness and \gls{Er}. The nano-indentator was fitted with a standard Berkovich tip with total included angle of 142.35\degree~ and half-angle 65.35\degree. The nano-indentator was calibrated aginsted a fused quartz reference sample before each use.   
+
+The samples were prepared by mounting onto stainless steel disks (approximate diameter $28mm$ , height $10mm$) with super glue. This was done to ensure a smooth surface and consistent compliance between all samples. The nano-indentation measurements were performed with a load of $1000 \mu N$ applied with a loading period of: 10 second ramp to load, 5 second hold at load, and 10 second ramp down to no-load. Each examined location had 9 independent indents performed within a $3 x 3$ grid with $10 \mu m$ spacing between each measurement. Each sample had 2 to 4 locations examined to ensure each sample was statically significant. 
+
+\subsection{AFM characterisation}
+Sample surface textures were examined with \gls{afm} (Dimension ICON, Bruker, Germany) with a ScanAsyst-Air probe (Bruker, Germany). The scan rate was $0.814 Hz$, amplitude setpoint $205.23 mV$, and drive amplitude $729.06 mV$. Scans were preformed over a cross sectional area of $2x2$ or $5x5 \mu m$. The samples were placed directly onto the examination stage and held in place by a vacuum. 
+
+\subsection{FIB characterisation}
+A \gls{fib} (XP200, FEI, The Netherlands) was used to cut cross sections into film surfaces. Samples were mounted to the testing stage with silver paint and sputter coated with a thin layer of gold. The examined areas of samples were coated with platinum before milling with gallium ions. Imaging on the \gls{fib} was done with an accelerating voltage of $30keV$, and probe current of $12 pA$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
